@@ -4,3 +4,4 @@ packages/Select.HtmlToPdf.25.1.0/Select.HtmlToPdf.25.1.0.nupkg
 Quiz/bin/*
 Quiz/obj/*
 Quiz/Properties/*
+.vs/

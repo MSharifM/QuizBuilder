@@ -55,11 +55,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEditQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditQuestion.Designer.cs">
+      <DependentUpon>FormEditQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListQuestions.Designer.cs">
+      <DependentUpon>FormListQuestions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditQuestion.resx">
+      <DependentUpon>FormEditQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListQuestions.resx">
+      <DependentUpon>FormListQuestions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -69,6 +87,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -83,6 +102,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCO.387d8e23-9f58-471e-9093-63d75a8976cd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCO.387d8e23-9f58-471e-9093-63d75a8976cd1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
